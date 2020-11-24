@@ -30,7 +30,7 @@ class Progress():
     def __exit__(self, val1, val2, val3):
         return None
 
-st.text(torch.cuda.is_available())
+# st.text(torch.cuda.is_available())
 Head.mainHead()
 Head.about()
 if st.sidebar.checkbox('Read more', key='mainReadMore'):
